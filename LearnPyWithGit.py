@@ -16,7 +16,7 @@ class LearnPyWithGit:
 print("Enter User Details")
 input_name = input("Enter User Name: ")
 input_address = input("Enter User Address: ")
-input_phone_number = input("Enter User PhoneNumber: ")
+input_phone_number = input("Enter User PhoneNumbr: ")
 input_email_id = input("Enter User email id: ")
 learnpy_with_gitobj = LearnPyWithGit(input_name, input_address, input_phone_number, input_email_id)
 learnpy_with_gitobj.print_user_address()
