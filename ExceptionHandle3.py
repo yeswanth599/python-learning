@@ -14,9 +14,9 @@ class ExceptionHandle3(Exception):
 
 
 class UserDefinedException:
-    def user_defined_ex(self, event_occured):
+    def user_defined_ex(self, event_occurred):
         try:
-            if event_occured == "Accident":
+            if event_occurred == "Accident":
                 raise ExceptionHandle3("Accident Occurred")
         except ExceptionHandle3 as e:
             print(e.print_userdef_exception())
